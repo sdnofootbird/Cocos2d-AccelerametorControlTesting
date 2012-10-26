@@ -3,7 +3,7 @@
 //  WorldNotEven
 //
 //  Created by Xuefeng Dai on 26/7/12.
-//  Copyright Hong Kong University 2012. All rights reserved.
+//  Copyright Nofootbird 2012. All rights reserved.
 //
 
 //
@@ -85,7 +85,7 @@
 	//
 	// return YES for the supported orientations
 	
-	return ( UIInterfaceOrientationIsLandscape( interfaceOrientation ) );
+	return ( UIInterfaceOrientationIsPortrait( interfaceOrientation ) );
 	
 #else
 #error Unknown value in GAME_AUTOROTATION
